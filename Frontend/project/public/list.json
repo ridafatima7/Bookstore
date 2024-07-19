@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sirt consecteteur elit adipising",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721312952~exp=1721316552~hmac=c1bbae315b7fb609c522149836aec7a12870920125113cb0794c9c722256de91&w=740"
+    },
+    {
+        "id": 2,
+        "name": "Comedy Book",
+        "title": "Lorem, ipsum dolor sirt consecteteur elit adipising",
+        "price": 20,
+        "category": "Entertainement",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721312952~exp=1721316552~hmac=c1bbae315b7fb609c522149836aec7a12870920125113cb0794c9c722256de91&w=740"
+    },
+    {
+        "id": 3,
+        "name": "History Book",
+        "title": "Lorem, ipsum dolor sirt consecteteur elit adipising",
+        "price": 100,
+        "category": "History",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721312952~exp=1721316552~hmac=c1bbae315b7fb609c522149836aec7a12870920125113cb0794c9c722256de91&w=740"
+    },
+    {
+        "id": 4,
+        "name": "Music Book",
+        "title": "Lorem, ipsum dolor sirt consecteteur elit adipising",
+        "price": 30,
+        "category": "Song",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1721312952~exp=1721316552~hmac=c1bbae315b7fb609c522149836aec7a12870920125113cb0794c9c722256de91&w=740"
+    }
+]
