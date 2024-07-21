@@ -1,10 +1,24 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Cards from './Cards'
 import list from '../../public/list.json'
 import { Link } from 'react-router-dom'
+import axios from "axios"
 const Courses = () => {
+  const [books,setBooks]=useState([]);
+  useEffect(()=>{
+    const getBooks=async()=>{
+      try{
+         const res=await axios.get("http://localhost:5008/book");
+         console.log(res.data);
+         setBooks(res.data);
+      }catch(error){
+        console.log(error)
+      }
+    }
+    getBooks();
+  },[])
   return (
     <>
     <Navbar />
@@ -17,7 +31,7 @@ const Courses = () => {
         </div>
         <div className=' grid grid-cols-1  md:grid-cols-3'>
             {
-               list.map((item)=>( 
+               books.map((item)=>( 
                  <Cards item={item} key={item.id} />
                ))
             }

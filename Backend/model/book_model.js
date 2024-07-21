@@ -7,7 +7,5 @@ const bookSchema = new mongoose.Schema({
     image: String,
     title: String
 });
-
 const Book = mongoose.model("Book", bookSchema);
-
 module.exports = Book;
